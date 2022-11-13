@@ -120,12 +120,38 @@ p{
 
 /* Pricing */
 #pricing{
+    text-align: center;
     padding: 100px;
 }
 
 .pricing-col{
     padding: 3% 2%;
     text-align: center;
+}
+
+#cta{
+    color: white;
+    text-align: center;
+    padding: 7% 15%;
+    background-color: #ff4c68;
+}
+
+.cta-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Footer */
+#footer{
+    text-align: center;
+    padding: 7% 15%;
+    background-color: white;
+}
+
+.footer-links{
+    padding: 20px 10px;
 }
 
 /* Media Query */
