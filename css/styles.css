@@ -127,3 +127,17 @@ p{
     padding: 3% 2%;
     text-align: center;
 }
+
+/* Media Query */
+@media(max-width: 990px){
+    #title{
+        text-align: center;
+    }
+
+    .title-img{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+        right: 30%;
+    }
+}
