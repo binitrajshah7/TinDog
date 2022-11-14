@@ -1,24 +1,21 @@
 body{
+    text-align: center;
     font-family: 'Montserrat';
     font-weight: 600;
 }
-h1{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
 }
 
 h2{
-    font-family: 'Montserrat';
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.5;
 }
 
 h3{
-    font-family: 'Montserrat';
     font-weight: 800;
+    font-size: 1.5rem;
 }
 
 p{
@@ -26,14 +23,16 @@ p{
 }
 
 .container-fluid{
-    padding: 3% 15% 14%;
+    padding: 7% 15%;
 }
 
-#title{
-    background-color: #ff4c68;
-    color: white;
+/* Heading */
+.big-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
 }
-
 /* Navigation bar */
 
 .navbar{
@@ -61,6 +60,17 @@ p{
     margin: 5% 3% 5% 0;
 }
 
+/* Title */ 
+#title{
+    text-align: left;
+    background-color: #ff4c68;
+    color: white;
+}
+
+#title .container-fluid{
+    padding: 3% 15% 7%;
+}
+
 /* Title Image */
 .title-img{
     position: absolute;
@@ -73,11 +83,9 @@ p{
 #features{
     position: relative;
     background-color: white;
-    padding: 7% 15%;
 }
 
 .feature-box{
-    text-align: center;
     padding: 5%;
 }
 
@@ -94,7 +102,6 @@ p{
 #testimonials{
     color: white;
     background-color: #ef8172;
-    text-align: center;
 }
 
 .testimonial-img{
@@ -103,13 +110,8 @@ p{
     margin: 20px;
 }
 
-.carousel-item{
-    padding: 7% 15%;
-}
-
 #press{
     background-color: #ef8172;
-    text-align: center;
     padding-bottom: 3%;
 }
 
@@ -120,33 +122,22 @@ p{
 
 /* Pricing */
 #pricing{
-    text-align: center;
     padding: 100px;
 }
 
 .pricing-col{
     padding: 3% 2%;
-    text-align: center;
 }
 
 #cta{
     color: white;
-    text-align: center;
-    padding: 7% 15%;
     background-color: #ff4c68;
 }
 
-.cta-heading{
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
+
 
 /* Footer */
 #footer{
-    text-align: center;
-    padding: 7% 15%;
     background-color: white;
 }
 
